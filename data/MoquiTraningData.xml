@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entity-facade-xml>
+<MoquiTraining  trainingName="ayush" trainingDate="231323" trainingPrice="2000" trainingDuration="3month/"/>
+
+</entity-facade-xml>

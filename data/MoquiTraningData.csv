@@ -1,0 +1,5 @@
+moqui_training.MoquiTraining,demo,_entity
+moqui_training.MoquiTraining,trainingId,trainingName,trainingDate,trainingPrice,trainingDuration
+moqui_training.MoquiTraining,19,"Advanced Groovy Programming",12/10/2024,299.99,3
+moqui_training.MoquiTraining,23,"Java for Beginners",12/15/2024,199.99,2
+moqui_training.MoquiTraining,13,"Spring Boot Basics",12/20/2024,249.99,4

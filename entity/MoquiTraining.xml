@@ -5,8 +5,8 @@
 
         <field name="trainingId" type="id" is-pk="true"/>
         <field name="trainingName" type="text-medium"/>
-        <field name="trainingDate" type="text-medium"/>
-        <field name="trainingPrice" type="text-medium"/>
+        <field name="trainingDate" type="date"/>
+        <field name="trainingPrice" type="number-decimal"/>
         <field name="trainingDuration" type="text-medium"/>
     </entity>
 </entities>

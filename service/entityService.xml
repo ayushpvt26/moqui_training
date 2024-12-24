@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/service-definition-3.xsd">
+
+    <service verb="create" noun="MoquiTraining" authenticate="anonymous-view" type="entity-auto">
+        <in-parameters>
+            <auto-parameters entity-name="MoquiTraining" include="nonpk"/>
+            <parameter name="trainingName" required="true"/>
+
+
+
+        </in-parameters>
+        <out-parameters>
+            <parameter name="trainingId"/>
+        </out-parameters>
+        <actions>
+            <!-- Generate a unique ID using ec.user.generateId() -->
+            <service-call name="create#MoquiTraining" in-map="context"/>
+        </actions>
+    </service>
+
+</services>
